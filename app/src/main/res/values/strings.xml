@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Fruitty</string>
+    <string name="my_name">Fa\'iq Arya Dewangga</string>
+
+    <string-array name="fruit_name">
+        <item>Apple</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Dragon Fruit</item>
+        <item>Grapes</item>
+        <item>Kiwi</item>
+        <item>Lemon</item>
+        <item>Mango</item>
+        <item>Orange</item>
+        <item>Papaya</item>
+        <item>Pear</item>
+        <item>Pineapple</item>
+        <item>Star Fruit</item>
+        <item>Strawberry</item>
+        <item>Watermelon</item>
+    </string-array>
+    <string-array name="fruit_scientific_name">
+        <item>Malus domestica</item>
+        <item>Persea americana</item>
+        <item>Musa sp.</item>
+        <item>Selenicereus undatus</item>
+        <item>Vitis vinifera</item>
+        <item>Actinidia sp.</item>
+        <item>Citrus limon</item>
+        <item>Mangifera indica</item>
+        <item>Citrus X sinensis</item>
+        <item>Carica papaya</item>
+        <item>Pyrus sp.</item>
+        <item>Ananas comosus</item>
+        <item>Averrhoa carambola</item>
+        <item>Fragaria x ananassa</item>
+        <item>Citrullus lanatus</item>
+    </string-array>
+    <string-array name="fruit_soil_type">
+        <item>Loam</item>
+        <item>Sandy</item>
+        <item>Clay loam</item>
+        <item>Sandy</item>
+        <item>Drained</item>
+        <item>Loam</item>
+        <item>Sandy</item>
+        <item>Loam</item>
+        <item>Sandy loam</item>
+        <item>Sandy loam</item>
+        <item>Sandy loam</item>
+        <item>Clay loam</item>
+        <item>Sandy loam</item>
+        <item>Loam</item>
+        <item>Loam</item>
+    </string-array>
+    <string-array name="fruit_temperature">
+        <item>32</item>
+        <item>68</item>
+        <item>53</item>
+        <item>40</item>
+        <item>77</item>
+        <item>45</item>
+        <item>73</item>
+        <item>55</item>
+        <item>47</item>
+        <item>70</item>
+        <item>36</item>
+        <item>68</item>
+        <item>65</item>
+        <item>60</item>
+        <item>76</item>
+        <item>68</item>
+    </string-array>
+    <string-array name="fruit_region">
+        <item>Asia</item>
+        <item>America</item>
+        <item>Asia</item>
+        <item>America</item>
+        <item>Asia</item>
+        <item>Asia</item>
+        <item>Asia</item>
+        <item>Asia</item>
+        <item>Asia</item>
+        <item>America</item>
+        <item>Asia</item>
+        <item>America</item>
+        <item>Asia</item>
+        <item>America</item>
+        <item>Africa</item>
+    </string-array>
+    <string-array name="fruit_description">
+        <item>The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible.</item>
+        <item>Avocado fruits have greenish or yellowish flesh with a buttery consistency and a rich nutty flavour. They are often eaten in salads, and in many parts of the world they are eaten as a dessert.</item>
+        <item>A banana is a curved, yellow fruit with a thick skin and soft sweet flesh. If you eat a banana every day for breakfast, your roommate might nickname you \"the monkey.\"</item>
+        <item>The dragon fruit has a dramatic appearance, with bright red, purple or yellow-skinned varieties and prominent scales. The fruit is oval, elliptical or pear-shaped. </item>
+        <item>Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. The pulp is juicy and sweet, and it contain several seeds or pips.</item>
+        <item>The ellipsoidal kiwi fruit is a true berry and has furry brownish green skin. The firm translucent green flesh has numerous edible purple-black seeds embedded around a white centre.</item>
+        <item>The lemon is a round, slightly elongated fruit, it has a strong and resistant skin, with an intense bright yellow colour when it is totaly ripe, giving off a special aroma when it is cut</item>
+        <item>The mango fruit is roughly oval in shape, with uneven sides. The fruit is a drupe, with an outer flesh surrounding a stone. The flesh is soft and bright yellow-orange in color. The skin of the fruit is yellow-green to red.</item>
+        <item>The orange is a usually round or oval citrus; its rind and flesh are generally orange, except the varieties of red pulp. The edible part of the orange is the flesh, consumed in fresh or in juice.</item>
+        <item>Papaya is a tropical fruit, having oval or pear shape, measuring between 10 and 20cm and usually weighing between 500 and 1,000g, although it may even weigh up to 5kg. It is a berry of thin skin, of a green yellowish and orange colour.</item>
+        <item>Pear fruits are generally sweeter and of softer texture than apples and are distinguished by the presence of hard cells in the flesh, the so-called grit, or stone cells. </item>
+        <item>A pineapple is a sweet tropical fruit with a tough leathery skin and spiky leaves on top. Pineapple is excellent, whether eaten as a snack, in a sweet dessert, in savory dishes like fried rice, or even on pizza.</item>
+        <item>Star fruit is a sweet and sour fruit that has the shape of a five-point star. The skin is edible and the flesh has a mild, sour flavor that makes it popular in a number of dishes.</item>
+        <item>A strawberry is actually a multiple fruit which consists of many tiny individual fruits embedded in a fleshy receptacle.</item>
+        <item>The fruit is a type of berry known botanically as a pepo. The sweet juicy flesh may be reddish, white, or yellow; flesh colour, shape of the fruit, and thickness of the rind depend on the variety. </item>
+    </string-array>
+    <string-array name="fruit_image">
+        <item>@drawable/img_apple</item>
+        <item>@drawable/img_avocado</item>
+        <item>@drawable/img_banana</item>
+        <item>@drawable/img_dragon_fruit</item>
+        <item>@drawable/img_grapes</item>
+        <item>@drawable/img_kiwi</item>
+        <item>@drawable/img_lemon</item>
+        <item>@drawable/img_mango</item>
+        <item>@drawable/img_orange</item>
+        <item>@drawable/img_papaya</item>
+        <item>@drawable/img_pear</item>
+        <item>@drawable/img_pineapple</item>
+        <item>@drawable/img_star_fruit</item>
+        <item>@drawable/img_strawberry</item>
+        <item>@drawable/img_watermelon</item>
+    </string-array>
+</resources>

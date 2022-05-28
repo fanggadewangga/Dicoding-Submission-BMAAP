@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailActivity"
+    android:background="@color/green">
+
+    <ImageView
+        android:id="@+id/iv_fruit"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/img_papaya"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Fruit image" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/detail_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/tv_fruit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="Papaya"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_fruit_scientific_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Carica papaya"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@id/tv_fruit_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_fruit_name" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tv_fruit_scientific_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_fruit_scientific_name" />
+
+
+        <TextView
+            android:id="@+id/tv_fruit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="24dp"
+            android:text="The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+        <ImageView
+            android:id="@+id/iv_thermometer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="56dp"
+            android:src="@drawable/ic_thermometer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_fruit_description" />
+
+        <ImageView
+            android:id="@+id/iv_region"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_region"
+            app:layout_constraintEnd_toStartOf="@id/iv_soil"
+            app:layout_constraintStart_toEndOf="@id/iv_thermometer"
+            app:layout_constraintTop_toTopOf="@id/iv_thermometer" />
+
+        <ImageView
+            android:id="@+id/iv_soil"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="56dp"
+            android:src="@drawable/ic_soil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/iv_region" />
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:text="32 F"
+            app:layout_constraintTop_toBottomOf="@id/iv_thermometer"
+            android:fontFamily="@font/roboto"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/iv_thermometer"
+            app:layout_constraintEnd_toEndOf="@id/iv_thermometer"/>
+
+        <TextView
+            android:id="@+id/tv_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="America"
+            android:fontFamily="@font/roboto"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/iv_region"
+            app:layout_constraintStart_toStartOf="@id/iv_region"
+            app:layout_constraintEnd_toEndOf="@id/iv_region"/>
+
+        <TextView
+            android:id="@+id/tv_soil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Sandy Loam"
+            android:maxLines="1"
+            android:fontFamily="@font/roboto"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/iv_soil"
+            app:layout_constraintStart_toStartOf="@id/iv_soil"
+            app:layout_constraintEnd_toEndOf="@id/iv_soil"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
